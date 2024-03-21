@@ -60,6 +60,9 @@ nav ul li{
     color: white;
     margin-right: 1rem;
 }
+.menu-button{
+    display: none !important;
+}
 
 nav ul li:hover{
     color: #0084ff;
@@ -118,6 +121,11 @@ header{
     .logo{
         font-size: 1.2rem;
     }
+
+    .menu-button{
+        display: block !important;
+    }
+
     .header-botton-side{
         flex-direction: column;
         text-align: center;
@@ -141,7 +149,7 @@ header{
         padding: 0.8rem;
  }
 
- .display-none
+
 }
 
  /*HEADER*/

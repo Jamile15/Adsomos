@@ -10,8 +10,8 @@
 </head>
 
 <body>
-    <div class="nav-bar">
-        <div class="header-inner-content show-menu">
+    <div class="nav-bar ">
+        <div class="header-inner-content ">
             <h1 class="logo">AD<span>SOMOS</span></h1>
             <nav>
                 <ul>
@@ -24,7 +24,7 @@
             </nav>
             <div class="nav-icons-container">
                 <i class="material-icons ">local_mall</i>
-                <i class="material-icons display-none ">menu</i>
+                <i class="material-icons menu-button">menu</i>
 
             </div>
         </div>
@@ -49,6 +49,15 @@
             </div>
         </div>
     </header>
-</body>
+        <script>
+            const navBar = document.querySelector(".nav-bar");
+            const menuButton = document.querySelector(".menu-button")
+
+            menuButton.addEventListener('click', () => {
+                navBar.classList.toggle("show-menu")
+            })
+
+        </script>
+    </body>
 
 </html>
