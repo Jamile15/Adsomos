@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adsomos | Ecomerce</title>
-    <link rel="stylesheet" href="/styles/global.css" />
+    <link rel="stylesheet" href="styles/global.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
@@ -44,7 +44,7 @@
                 </div>
 
                 <div class="header-botton-side-right">
-                    <img src="/imagens/imagem_teste.jpg" alt="">
+                    <img src="imagens/imagem_teste.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -53,41 +53,113 @@
     <!-- Conteiner mae -->
     <main>
         <div class="gray-background">
+            <h3 class="section-title">Ultimos Produtos</h3>
+            <div class="subtitle-underline"></div>
             <div class="page-inner-content">
                 <div class="cols cols-3">
-                    <img src="/imagens/imagem_teste.jpg" alt=""/>
-                    <img src="/imagens/imagem_teste.jpg" alt=""/>
-                    <img src="/imagens/imagem_teste.jpg" alt=""/>
+                    <img src="imagens/imagem_teste.jpg" alt="" />
+                    <img src="imagens/imagem_teste.jpg" alt="" />
+                    <img src="imagens/imagem_teste.jpg" alt="" />
                 </div>
             </div>
         </div>
 
         <div>
             <div class="page-inner-content">
-            <h3 class="section-title">Produtos Selecionados</h3>
-            <div class="subtitle-underline"></div>
-            <div class="cols cols-4">
-                <div>
-                    <img src="/imagens/imagem_teste.jpg" alt="">
-                    <p class="product-name">Combo gamer</p>
-                    <p class="rate">&#9733; &#9733;&#9733; &#9734;</p>
-                    <p class="product-price">54,00 <span>R$</span></p>
+                <h3 class="section-title">Produtos Selecionados</h3>
+                <div class="subtitle-underline"></div>
+                <div class="cols cols-4">
+                    <div class="product">
+                        <img src="imagens/imagem_teste.jpg" alt="">
+                        <p class="product-name">Combo gamer</p>
+                        <p class="rate">&#9733; &#9733;&#9733; &#9734;</p>
+                        <p class="product-price">54,00 <span>R$</span></p>
+                    </div>
+                    <div class="product">
+                        <img src="imagens/imagem_teste.jpg" alt="">
+                        <p class="product-name">Combo gamer</p>
+                        <p class="rate">&#9733; &#9733;&#9733; &#9734;</p>
+                        <p class="product-price">54,00 <span>R$</span></p>
+                    </div>
+                    <div class="product">
+                        <img src="imagens/imagem_teste.jpg" alt="">
+                        <p class="product-name">Combo gamer</p>
+                        <p class="rate">&#9733; &#9733;&#9733; &#9734;</p>
+                        <p class="product-price">54,00 <span>R$</span></p>
+                    </div>
+                    <div class="product">
+                        <img src="imagens/imagem_teste.jpg" alt="">
+                        <p class="product-name">Combo gamer</p>
+                        <p class="rate">&#9733; &#9733;&#9733; &#9734;</p>
+                        <p class="product-price">54,00 <span>R$</span></p>
+                    </div>
                 </div>
             </div>
 
+            <div class="page-inner-content">
+                <h3 class="section-title">Ultimos Produtos</h3>
+                <div class="subtitle-underline"></div>
+
+
+                <div class="parent">
+
+                    <div class="grupo-1">
+                        <div class="product image-cols-1">
+                            <img class="image-featured" src="imagens/imagem_teste.jpg" alt="">
+                            <p class="product-name">Combo gamer</p>
+                            <p class="rate">&#9733; &#9733;&#9733; &#9734;</p>
+                            <p class="product-price">54,00 <span>R$</span></p>
+                        </div>
+                    </div>
+                    <div class="grupo-2">
+                        <div class="product image-cols">
+                            <img src="imagens/imagem_teste.jpg" alt="">
+                            <div class="product-info">
+                                <p class="product-name">Combo gamer teste teste teste teste </p>
+                                <p class="rate">&#9733; &#9733;&#9733; &#9734;</p>
+                                <p class="product-price"><span>R$</span> 54,00 </p>
+                            </div>
+                        </div>
+                        <div class="product image-cols">
+                            <img src="imagens/imagem_teste.jpg" alt="">
+                            <div class="product-info">
+                                <p class="product-name">Combo gamer teste teste teste teste </p>
+                                <p class="rate">&#9733; &#9733;&#9733; &#9734;</p>
+                                <p class="product-price"><span>R$</span> 54,00 </p>
+                            </div>
+                        </div>
+                        <div class="product image-cols">
+                            <img src="imagens/imagem_teste.jpg" alt="">
+                            <div class="product-info">
+                                <p class="product-name">Combo gamer teste teste teste teste </p>
+                                <p class="rate">&#9733; &#9733;&#9733; &#9734;</p>
+                                <p class="product-price"><span>R$</span> 54,00 </p>
+                            </div>
+                        </div> <div class="product image-cols">
+                            <img src="imagens/imagem_teste.jpg" alt="">
+                            <div class="product-info">
+                                <p class="product-name">Combo gamer teste teste teste teste </p>
+                                <p class="rate">&#9733; &#9733;&#9733; &#9734;</p>
+                                <p class="product-price"><span>R$</span> 54,00 </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
+
         </div>
     </main>
 
-        <script>
-            const navBar = document.querySelector(".nav-bar");
-            const menuButton = document.querySelector(".menu-button")
+    <script>
+        const navBar = document.querySelector(".nav-bar");
+        const menuButton = document.querySelector(".menu-button")
 
-            menuButton.addEventListener('click', () => {
-                navBar.classList.toggle("show-menu")
-            })
+        menuButton.addEventListener('click', () => {
+            navBar.classList.toggle("show-menu")
+        })
 
-        </script>
-    </body>
+    </script>
+</body>
 
 </html>
