@@ -155,7 +155,7 @@ header {
 
 /*Main*/
 main {
-  background-color: #ebebeb;
+  background-color: #fff;
 }
 
 .gray-background {
@@ -194,12 +194,14 @@ main {
   align-content: flex-start;
   justify-content: space-evenly;
   align-items: stretch;
+  
 }
 
 .grupo-1,
 .grupo-2 {
   width: 49%;
   padding-top: 84px;
+ 
 }
 
 .grupo-2 {
@@ -211,11 +213,27 @@ main {
 
 .image-cols {
   width: 48%;
+  cursor: pointer;
+  transition: all 0.2s;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.image-cols-1:hover{
+  transform: translateY(-5px);
+}
+
+.image-cols:hover{
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.158);
 }
 
 .image-cols-1 {
-  width: 80%;
+  cursor: pointer;
+  transition: all 0.2s;
+  width: 86%;
+  padding: 6px;
 }
+
 
 .image-cols img {
   max-height: 170px;
@@ -238,11 +256,20 @@ main {
 }
 
 .subtitle-underline {
-  width: 100px;
+  width: 200px;
   height: 5px;
   background: #004c94;
   border-radius: 99px;
-  margin: 8px auto 0 auto;
+  margin: 30px auto 0 auto;
+}
+
+.button-shop-now{
+display: flex;
+justify-content: center;
+}
+
+.button-shop-now button{
+  margin-bottom: 40px;
 }
 
 .product {
@@ -296,6 +323,10 @@ main {
     border-radius: 3%;
     margin-left: 1px;
   }
+  .image-cols:hover{
+    box-shadow: none;
+  }
+
   .image-cols-1 {
     width: 100%;
     padding: 5px;
@@ -323,3 +354,65 @@ main {
 }
 
 /*Main*/
+
+/*Footer*/
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color:#8f8f8f;
+  padding: 1rem 1rem;
+}
+
+.logo-fototer{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo-fototer img{
+  width: 40%;
+}
+
+.link-title{
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+
+}
+
+.links-footer{
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+.links-footer ul li{
+  list-style: none;
+  margin-bottom: 0.5rem;
+}
+
+.copyright{
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+/*Media queries*/
+@media (max-width: 800px){
+  .footer{
+    display: inline;
+    font-size: 0.8rem;
+  }
+
+  .footer div{
+    padding: 1rem;
+  }
+
+  .copyright{
+    font-size: 0.8rem;
+  }
+}
+
+/*Footer*/
